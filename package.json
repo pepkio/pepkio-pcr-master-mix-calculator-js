@@ -2,6 +2,7 @@
   "name": "pepkio-pcr-master-mix-calculator",
   "version": "0.1.0",
   "description": "Call the Pepkio PCR Master Mix Calculator REST API from Node.js with typed ESM imports and a CLI.",
+  "readme": "README_NPM.md",
   "license": "MIT",
   "author": "Pepkio Team",
   "homepage": "https://www.pepkio.com/tools/pcr-master-mix-calculator",
@@ -20,8 +21,10 @@
   "keywords": [
     "pcr",
     "qpcr",
+    "sybr",
     "master-mix",
     "pcr-master-mix-calculator",
+    "genotyping",
     "pepkio",
     "laboratory-calculator",
     "pipette",
@@ -36,7 +39,9 @@
     "node",
     "rest-api",
     "lab-protocol",
-    "scientific-computing"
+    "scientific-computing",
+    "taq-polymerase",
+    "overage-factor"
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
